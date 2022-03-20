@@ -12,3 +12,11 @@ async function getAccount() {
   console.log(account);
   document.querySelector('#showAccount').innerHTML = account;
 }
+
+if (typeof window.solana.isPhantom !== 'undefined') {
+  console.log('Phantom is installed!');
+}
+
+function SolButtonClick(params) {
+  
+}
